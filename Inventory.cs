@@ -20,7 +20,7 @@ namespace ConsoleApp4
         public override string ToString()
         {
             string result = "";
-            result += "\nRice: \n";
+            result = result + "\nRice: \n";
             foreach(Seeds seed in Rice)
             {
                 result+=seed.ToString();
